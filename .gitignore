@@ -1,0 +1,54 @@
+### Gradle ###
+.gradle/
+build/
+!**/src/**/build/
+
+### Maven (kalau kamu pakai someday) ###
+target/
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### STS / Eclipse ###
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Git ###
+*.swp
+*.swo
+
+### Secrets or Credentials ###
+.env
+application-dev.yml
+application-prod.yml
